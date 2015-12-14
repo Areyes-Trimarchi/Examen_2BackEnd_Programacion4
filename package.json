@@ -1,0 +1,42 @@
+{
+  "name": "angular-scaffold",
+  "version": "1.0.0",
+  "description": "Angular scaffold with hapi.js serving it",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:Areyes-Trimarchi/Proyecto_Atlas.git"
+  },
+  "keywords": [
+    "angular",
+    "hapi",
+    "node",
+    "bootstrap",
+    "scaffold"
+  ],
+  "author": "Alvaro Reyes, Elena Caballero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Areyes-Trimarchi/Proyecto_Atlas.git"
+  },
+  "homepage": "https://github.com/Areyes-Trimarchi/Proyecto_Atlas#readme",
+  "dependencies": {
+    "ammo": "^2.0.0",
+    "boom": "^3.0.0",
+    "chart.js": "^1.0.2",
+    "crypto-js": "^3.1.5",
+    "hapi": "^11.1.0",
+    "hapi-auth-cookie": "^3.1.0",
+    "hapi-mongodb": "^4.1.0",
+    "hoek": "^3.0.4",
+    "inert": "^3.2.0",
+    "items": "^2.0.0",
+    "joi": "^7.0.1",
+    "lru-cache": "^3.2.0",
+    "mongoose": "^4.2.6",
+    "mongoose-unique-validator": "^0.6.1"
+  }
+}
